@@ -5,7 +5,7 @@ The installer automatically put the script into your bin directory and if it doe
 
 ## Installation
 
-### Clone the git repo
+### Clone the repo
 
 ```
 git clone https://github.com/xFabifont/brightness-controller.git
