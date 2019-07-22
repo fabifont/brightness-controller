@@ -1,6 +1,7 @@
 # brightness-controller
 
-Simple bash script to control the brightness of your screen
+Simple bash script to control the brightness of your screen.
+The installer automatically put the script into your bin directory and if it doesn't exist it will create it, then he will delete the folder.
 
 ## Installation
 
