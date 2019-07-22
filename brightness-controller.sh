@@ -5,7 +5,6 @@ echo Choose a brightness value between 0.1 and 1.0
 
 read value
 
-echo $value
 if [[ $value > 0.0 && $value < 1.1 ]];
 then 
     xrandr --output $SCREEN --brightness $value
