@@ -14,7 +14,7 @@ Simple bash script to control the brightness of your screen
 
 ### Clone the git repo
 
-Go into the folder and follow one between the methods below
+Go into the folder (```cd bin```) and follow one between the methods below
 
 - SSH
     - 
