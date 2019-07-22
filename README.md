@@ -12,6 +12,7 @@ git clone https://github.com/xFabifont/brightness-controller.git
 
 ### Run the installer
 
+Enter in the folder with the command ```cd brightness-controller``` and run the command below
 ```
 sh install.sh
 ```
