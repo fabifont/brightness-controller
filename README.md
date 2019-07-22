@@ -52,7 +52,7 @@ nano ~/.bashrc
 Go to the end of the file and add these rows
 
 ```
-#Add brightness-controller folder to PATH
+# Add brightness-controller folder to PATH
 export PATH=$PATH:~/bin/brightness-controller
 ```
 
@@ -61,3 +61,18 @@ If you have already exported your PATH to add the folder you can simply put a ":
 ```
 export PATH=$PATH:~/example:~/bin/brightness-controller
 ```
+### Reload your bashrc file configuration
+
+```
+source ~/.bashrc
+```
+
+## Use the controller
+
+Open the terminal and tpye 
+
+```
+brightness-controller.sh
+```
+
+You will be asked to choose a value between 0.1 and 1.0 and then you have it 
