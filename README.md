@@ -64,4 +64,4 @@ Example :
 brightness-controller.sh +
 ```
 
-So you can create a keyboard shortcut on your DE / WM which runs the command "brightness-controller.sh -" to decrease the brightness and "brightness-controller.sh +" to increase it
+So you can create a keyboard shortcut on your DE / WM which runs the command ```brightness-controller.sh -``` to decrease the brightness and ```brightness-controller.sh +``` to increase it
