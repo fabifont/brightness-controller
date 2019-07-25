@@ -46,10 +46,22 @@ source ~/.bashrc
 
 ## Use the controller
 
-Open the terminal and tpye 
+### Style
 
+The command must be run with a parameter ```brightness-controller.sh 'parameter'``` 
+
+### Set a specific value between 0.1 and 1.0
+
+Example :
 ```
-brightness-controller.sh
+brightness-controller.sh 0.6
+```
+### Increase / Decrease by a step of 0.1
+
+The parameter is '-' or '+'
+Example : 
+```
+brightness-controller.sh +
 ```
 
-You will be asked to choose a value between 0.1 and 1.0 and then you have it 
+So you can create a keyboard shortcut on your DE / WM which runs the command "brightness-controller.sh -" to decrease the brightness and "brightness-controller.sh +" to increase it
