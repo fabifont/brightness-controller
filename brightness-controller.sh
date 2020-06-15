@@ -15,6 +15,6 @@ elif [[ $1 > 0.0 && $1 < 1.1 ]];
 then 
     xrandr --output $SCREEN --brightness $1
 else 
-    echo "You insert a wrong value or the brightness is already at its minimum or maximum."
+    echo "Wrong value or the brightness is already at its minimum or maximum."
     echo "Insert a correct value (for more info see the wiki here: https://github.com/xFabifont/brightness-controller/tree/master)"
 fi
